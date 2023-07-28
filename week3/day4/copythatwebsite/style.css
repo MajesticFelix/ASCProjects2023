@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+}
+
+div{
+    color:black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 75%;
+    font-family: "Helvetica";
+}
+
+#appleImg{
+    width: 15px;
+    height: 15px;
+    padding-top: 9px;
+}
+
+#searchImg{
+    width: 20px;
+    height: 20px;
+    padding-top: 7px;
+}
+
+#shoppingbagImg{
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+}
+
+#ad1{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f4;
+    height: 675px;
+    text-align: center;
+}
+
+#title{
+    font-size: 50px;
+    margin-top: 65px;
+    margin-bottom: 0px;
+}
+
+#title2{
+    font-weight: 100;
+    font-size: 27px;
+}
+
+#title3{
+    color: #2d80d3;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#ad2{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 205px;
+    text-align: center;
+}
+
+#title4{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+#title5{
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#block{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#title6, #title7{
+    color: #2d80d3;
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.noUnderline{
+    text-decoration: none;
+}
+
+#title3:hover, #title6:hover, #title7:hover{
+    text-decoration: underline;
+    text-decoration-color: #2d80d3;
+}

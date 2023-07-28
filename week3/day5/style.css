@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4374be;
+    height: 150px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Arial;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff6b00;
+    font-size: 30px;
+    font-family: "Courier New";
+}
+
+nav a{
+    margin: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+#contentHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 723.5px;
+}
+
+#contentResume{
+    display: flex;
+    height: 723.5px;
+}
+
+#contentAcademics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 723.5px;
+}
+
+#contentProjects{
+    display: flex;
+    height: 723.5px;
+    font-family: "Courier New"
+}
+
+#Project1, #Project2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Project3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noUnderline{
+    color: #4374be;
+    text-decoration: none;
+}
+
+#Project2 a:hover{
+    text-decoration: underline;
+}
+
+#nextPage, #prevPage{
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+#bths{
+    width: 500px;
+    height: 500px;
+    padding-right: 100px;
+}
+
+#aboutMeText{
+    font-family: "Courier New";
+    font-size: x-large;
+}
+
+#academicsText{
+    font-family: "Courier New";
+    font-size: x-large;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height:50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer h2{
+    margin: 10px;
+}
+
+footer img{
+    width: 46px;
+}
+
+#endImg{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-right: 20px;
+}
